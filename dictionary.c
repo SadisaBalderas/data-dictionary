@@ -9,6 +9,5 @@ int initializeDataDictionary(const char *DictionaryName)
 
     fwrite(&mainHeader, sizeof(mainHeader), 1, dictionary);
 
-    long CurrentDir = ftell(dictionary);
     return EXIT_SUCCESS;
 }
