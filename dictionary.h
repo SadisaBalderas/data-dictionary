@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+# DEFINE EMPTY_POINTER -1 
 void initializeDataDictionary();
 
 #endif
